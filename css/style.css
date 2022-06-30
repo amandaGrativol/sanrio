@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Titan+One&display=swap');
+
+#titulo {
+    color: rgb(223, 0, 111);
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+}
+
+#subtitulo {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 20px;
+}
+
+.texto {
+    padding: 20px;
+    font-family: 'Concert One', cursive;
+}
+
+h1,
+p,
+h2 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    background-color: rgb(255, 183, 219);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    margin: 25px;
+    border: 5px solid rgb(223, 0, 111);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(168, 0, 112);
+
+}
+
+.cardImg {
+    height: 300px;
+    background-size: cover;
+}
+
+
+.card1 .cardImg {
+    
+    background-image: url("/img/kuromi.png");
+    background-position: center;
+    border-radius: 10px 10px;
+}
+
+.card2 .cardImg{
+    background-image: url("/img/hellokitty.png");
+    background-position: center;
+    border-radius: 10px 10px;
+}
+
+.card3 .cardImg{
+    background-image: url("/img/melody.png");
+    background-position: center;
+    border-radius: 10px 10px;
+}
+.card4 .cardImg{
+    background-image: url("/img/keroppi.png");
+    background-position: center;
+    border-radius: 10px 10px;
+}
+
+.btn {
+    padding-top: 5px;
+    background: #ff93e4;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: #ff27b7;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+}
+h4{
+    text-align: center;
+    color: #ff27b7;
+    padding: 5PX;
+    font-family: 'Fredoka One', cursive;
+}
