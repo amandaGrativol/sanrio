@@ -80,11 +80,15 @@ h2 {
 }
 
 .btn {
+    display: block;
     padding-top: 5px;
     background: #ff93e4;
     color: #fff;
     border: 1px solid #eee;
     border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -92,8 +96,13 @@ h2 {
     color: #fff;
     border: 1px solid #eee;
     border-radius: 20px;
+    transition: .5s;
+
 }
 
+.cardDescricao{
+    padding: 20px 10px;
+}
 h4{
     text-align: center;
     color: #ff27b7;
